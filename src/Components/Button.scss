@@ -1,0 +1,17 @@
+.searchBtn{
+    padding: 20px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 0  15px 15px 0;
+    background-color: black;
+    cursor: pointer;
+    
+    &:hover{
+        background-color: hsl(0, 0%, 17%);
+    }
+    &::after{
+        content: url(../../public/assets/icon-arrow.svg);
+        margin: auto;
+    }
+}
